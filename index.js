@@ -55,6 +55,11 @@ app.get('/api/health', (req, res) => {
     res.json({ message: "Pharma Server Running" });
 });
 
+// Simple Ping (No DB)
+app.get('/api/ping', (req, res) => {
+    res.send("PONG - Server is Alive!");
+});
+
 // Debug Route (Check Node.js DB Connection)
 app.get('/api/debug-status', async (req, res) => {
     try {
