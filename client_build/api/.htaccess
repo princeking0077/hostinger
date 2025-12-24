@@ -1,0 +1,4 @@
+# Protect sensitive config file
+<Files "config.php">
+  Require all denied
+</Files>

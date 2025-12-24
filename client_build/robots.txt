@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://apexapps.in/sitemap.php
+Sitemap: https://apexapps.in/api/sitemap.xml
